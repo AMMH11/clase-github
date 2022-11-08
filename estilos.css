@@ -4,7 +4,7 @@
 }
 
 body{
-    background: lightpink;
+    background: rgb(143, 16, 35);
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -22,8 +22,8 @@ header{
     width: 100%;
     text-align: center;
     line-height: 100px;
-    color: rgb(140, 20, 20);
-    border-bottom: 3px solid rgb(198, 158, 192);
+    color: rgb(19, 38, 99);
+    border-bottom: 3px solid rgb(88, 12, 76);
 }
 .article{
 
