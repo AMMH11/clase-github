@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+body{
+    background: lightpink;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#container{
+    /*width: 70%;*/
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid pink;
+   
+}
+header{
+    background: url(imagenes/headerfondo1.jpg) no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: rgb(140, 20, 20);
+    border-bottom: 3px solid rgb(198, 158, 192);
+}
+.article{
+
+}
+nav{
+    background: rgb(194, 123, 182);
+    height: 50px;
+    border-bottom: 3px solid gray;
+}
+nav ul li{ 
+
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+
+}
+.clearfix{
+    clear:both;
+}
+#content{
+    float:left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: rgb(240, 160, 172);
+    padding: 40px;
+}
+.article{
+    color:azure;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.article:first-child{
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+.article h2{
+    font-size: 25px;
+}
+aside{
+     float: left;
+     width: calc(20% - 20px);
+     background: rgb(218, 144, 156);
+     min-height: 500px;
+     padding: 10px;
+}
+footer{
+    background-color: blueviolet;
+    color:azure;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+
+}
